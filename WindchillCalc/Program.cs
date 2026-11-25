@@ -71,6 +71,29 @@ namespace WindchillCalc
 
                         double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfwind, 0.16) + 0.3965 * temperature * Math.Pow(speedOfwind, 0.16)); // This calculation is wrong!
 
+                        //weatherScale
+
+                        if (WCT > -25) // Is this correct or should it be flipped?
+                        {
+                            Console.WriteLine("WCT classification says it's cold!");
+                        }
+
+                        else if (WCT <= -25 && WCT >= -35)
+                        {
+                            Console.WriteLine("WCT classification says it's VERY cold!");
+                        }
+
+                        else if (WCT >= -35 && WCT <= -60)
+                        {
+                            Console.WriteLine("WCT classification says there's risk for frostbite!");
+                        }
+
+                        else
+                        {
+                            Console.WriteLine("WCT classification says there's a BIG risk for frostbite!");
+                        }
+
+
                         Console.Clear();
                         Console.WriteLine($"Temperature: {temperature}");
                         Console.WriteLine($"Speed of wind: {speedOfwind}");
