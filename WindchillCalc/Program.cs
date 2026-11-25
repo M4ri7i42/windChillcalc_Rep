@@ -12,7 +12,7 @@ namespace WindchillCalc
         static void Main(string[] args)
         {
             bool playing = true;
-            int weatherScale = 0;
+            string weatherScale;
 
 
             while (playing == true)
@@ -62,7 +62,7 @@ namespace WindchillCalc
                         Console.Clear();
                         Console.WriteLine("What is the speed of the wind? (In m/s)");
 
-                        while (!double.TryParse(Console.ReadLine(), out speedOfwind))
+                        while (!double.TryParse(Console.ReadLine(), out speedOfwind)) // Accepting negative values makes it Nan! Fix!
                         {
                             Console.Clear();
                             Console.WriteLine("[ERROR] input is not a double");
@@ -71,26 +71,31 @@ namespace WindchillCalc
 
                         double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfwind, 0.16) + 0.3965 * temperature * Math.Pow(speedOfwind, 0.16)); // This calculation is wrong!
 
-                        //weatherScale
+                        //weatherScale // Delete this?
 
-                        if (WCT > -25) // Is this correct or should it be flipped?
+                        if (WCT > 0)
                         {
-                            Console.WriteLine("WCT classification says it's cold!");
+                            weatherScale = "WCT classification says it's warm...";
                         }
 
-                        else if (WCT <= -25 && WCT >= -35)
+                        else if (WCT > -25 && WCT < 0) // Is this correct or should it be flipped?
                         {
-                            Console.WriteLine("WCT classification says it's VERY cold!");
+                           weatherScale = "WCT classification says it's cold!";
                         }
 
-                        else if (WCT >= -35 && WCT <= -60)
+                        else if (WCT < -25 && WCT > -35)
                         {
-                            Console.WriteLine("WCT classification says there's risk for frostbite!");
+                            weatherScale = "WCT classification says it's VERY cold!";
+                        }
+
+                        else if (WCT < -35 && WCT > -60)
+                        {
+                            weatherScale = "WCT classification says there's risk for frostbite!";
                         }
 
                         else
                         {
-                            Console.WriteLine("WCT classification says there's a BIG risk for frostbite!");
+                            weatherScale = "WCT classification says there's a BIG risk for frostbite!";
                         }
 
 
@@ -98,6 +103,7 @@ namespace WindchillCalc
                         Console.WriteLine($"Temperature: {temperature}");
                         Console.WriteLine($"Speed of wind: {speedOfwind}");
                         Console.WriteLine($"WCT: {WCT:F1}");
+                        Console.WriteLine(weatherScale);
 
                         Console.WriteLine("Press enter to continue");
                         Console.ReadLine();
