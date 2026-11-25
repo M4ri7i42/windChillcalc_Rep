@@ -62,16 +62,20 @@ namespace WindchillCalc
                         Console.Clear();
                         Console.WriteLine("What is the speed of the wind? (In m/s)");
 
-                        while (!double.TryParse(Console.ReadLine(), out speedOfwind)) // Accepting negative values makes it Nan! Fix!
+                        while (!double.TryParse(Console.ReadLine(), out speedOfwind))
                         {
                             Console.Clear();
                             Console.WriteLine("[ERROR] input is not a double");
                             Console.WriteLine("What is the speed of the wind? (In m/s)");
                         }
 
-                        double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfwind, 0.16) + 0.3965 * temperature * Math.Pow(speedOfwind, 0.16)); // This calculation is wrong!
+                        if (speedOfwind < 0)
+                        {
+                            speedOfwind = speedOfwind - speedOfwind - speedOfwind;
+                        }
 
-                        //weatherScale // Delete this?
+                        double speedOfWind_kph = speedOfwind * 3.6;
+                        double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfWind_kph, 0.16) + 0.3965 * temperature * Math.Pow(speedOfWind_kph, 0.16)); // This calculation is wrong!
 
                         if (WCT > 0)
                         {
