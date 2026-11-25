@@ -11,7 +11,7 @@ namespace WindchillCalc
     {
         static void Main(string[] args)
         {
-            bool playing = true;
+            bool playing = true; 
             string weatherScale;
 
 
@@ -24,8 +24,8 @@ namespace WindchillCalc
                 Console.WriteLine("Exit application [2]");
 
                 int confirmedInteger;
-                while (!int.TryParse(Console.ReadLine(), out confirmedInteger))
-                {
+                while (!int.TryParse(Console.ReadLine(), out confirmedInteger) || (confirmedInteger != 1 && confirmedInteger != 2))
+                { 
                     Console.Clear();
                     Console.WriteLine("[ERROR] input was not [1] or [2]");
                     //Thread.Sleep(2000);
@@ -34,6 +34,7 @@ namespace WindchillCalc
                     Console.WriteLine("Calculate wind chill [1]");
                     Console.WriteLine("Exit application [2]");
 
+
                     
                 }
 
@@ -41,6 +42,10 @@ namespace WindchillCalc
                 {
                     playing = false;
                 }
+                
+
+
+
 
                 switch (playing)
                 {
@@ -75,14 +80,14 @@ namespace WindchillCalc
                         }
 
                         double speedOfWind_kph = speedOfwind * 3.6;
-                        double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfWind_kph, 0.16) + 0.3965 * temperature * Math.Pow(speedOfWind_kph, 0.16)); // This calculation is wrong!
+                        double WCT = (13.12 + 0.6215 * temperature - 11.37 * Math.Pow(speedOfWind_kph, 0.16) + 0.3965 * temperature * Math.Pow(speedOfWind_kph, 0.16)); 
 
                         if (WCT > 0)
                         {
                             weatherScale = "WCT classification says it's warm...";
                         }
 
-                        else if (WCT > -25 && WCT < 0) // Is this correct or should it be flipped?
+                        else if (WCT > -25 && WCT <= 0)
                         {
                            weatherScale = "WCT classification says it's cold!";
                         }
@@ -106,7 +111,7 @@ namespace WindchillCalc
                         Console.Clear();
                         Console.WriteLine($"Temperature: {temperature}");
                         Console.WriteLine($"Speed of wind: {speedOfwind}");
-                        Console.WriteLine($"WCT: {WCT:F1}");
+                        Console.WriteLine($"WCT: {WCT.ToString("F1")}");
                         Console.WriteLine(weatherScale);
 
                         Console.WriteLine("Press enter to continue");
