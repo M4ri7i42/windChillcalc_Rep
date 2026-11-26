@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E032573F-F779-4360-8E3E-9324AA647270}</ProjectGuid>
+    <ProjectGuid>{7565E7DD-EADC-4B8F-8C88-9073768AC19D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WindchillCalc</RootNamespace>
-    <AssemblyName>WindchillCalc</AssemblyName>
+    <RootNamespace>GIK299_L1_h26mengs</RootNamespace>
+    <AssemblyName>GIK299_L1_h26mengs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,0 +1,14 @@
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.exe.config
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.exe
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.pdb
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.csproj.AssemblyReference.cache
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.csproj.CoreCompileInputs.cache
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.exe
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\Lab 1\GIK299_L1_h26mengs\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.pdb
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.exe.config
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.exe
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\bin\Debug\GIK299_L1_h26mengs.pdb
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.csproj.AssemblyReference.cache
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.csproj.CoreCompileInputs.cache
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.exe
+C:\Users\mar14\OneDrive - Högskolan Dalarna\Högskolan dalarna Year 1\OOP C#\WindchillCalc\GIK299_L1_h26mengs\obj\Debug\GIK299_L1_h26mengs.pdb

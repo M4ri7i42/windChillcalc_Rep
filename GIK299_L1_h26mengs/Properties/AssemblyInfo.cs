@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindchillCalc")]
+[assembly: AssemblyTitle("GIK299_L1_h26mengs")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WindchillCalc")]
+[assembly: AssemblyProduct("GIK299_L1_h26mengs")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e032573f-f779-4360-8e3e-9324aa647270")]
+[assembly: Guid("7565e7dd-eadc-4b8f-8c88-9073768ac19d")]
 
 // Version information for an assembly consists of the following four values:
 //

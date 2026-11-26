@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mar14\\OneDrive - H\u00F6gskolan Dalarna\\H\u00F6gskolan dalarna Year 1\\OOP C#\\WindchillCalc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7565E7DD-EADC-4B8F-8C88-9073768AC19D}|GIK299_L1_h26mengs\\GIK299_L1_h26mengs.csproj|c:\\users\\mar14\\onedrive - h\u00F6gskolan dalarna\\h\u00F6gskolan dalarna year 1\\oop c#\\windchillcalc\\gik299_l1_h26mengs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7565E7DD-EADC-4B8F-8C88-9073768AC19D}|GIK299_L1_h26mengs\\GIK299_L1_h26mengs.csproj|solutionrelative:gik299_l1_h26mengs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mar14\\OneDrive - H\u00F6gskolan Dalarna\\H\u00F6gskolan dalarna Year 1\\OOP C#\\WindchillCalc\\GIK299_L1_h26mengs\\Program.cs",
+              "RelativeDocumentMoniker": "GIK299_L1_h26mengs\\Program.cs",
+              "ToolTip": "C:\\Users\\mar14\\OneDrive - H\u00F6gskolan Dalarna\\H\u00F6gskolan dalarna Year 1\\OOP C#\\WindchillCalc\\GIK299_L1_h26mengs\\Program.cs",
+              "RelativeToolTip": "GIK299_L1_h26mengs\\Program.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwIMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T23:00:14.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
